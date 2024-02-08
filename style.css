@@ -132,9 +132,22 @@ nav ul li a:hover{
     text-align: center;
 }
 
+.img-2{
+    height: 277px;
+    background-image: url('image1/team.png');
+    background-repeat: no-repeat;
+    width: auto;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+.img-1, .img-2 {
+    margin: 0;
+    padding: 0;
+}
 
 .container1 {
-    border: 3px solid #fff; 
+ 
     display: flex;
      background-image: url('image1/hdbg.jpg');
     justify-content: space-between;
@@ -170,6 +183,7 @@ font-size: 22px;
     margin-left: 19px;
     width: 30%; /* Adjust the width as needed */
     text-align: end;
+    background-size: contain;
     align-items: self-end;
   }
 
